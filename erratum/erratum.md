@@ -31,7 +31,7 @@ and
 
 $$ \frac{\partial \mathcal{L}\_{\mathrm{decorr}}}{\partial W_{ij}} = \frac{1}{(B-1)(M^2-M)} \sum_{b=1}^B f'(a_i^b)x_j^b \sum_{k\neq i}\left(z_k^b(t)-\bar{z}\_k(t)\right)  C_{ik} \quad ,$$
 
-where $C_{ik}$ is the covariance matrix between units $i$ and $k$:
+where $C_{ik}$ is the covariance between units $i$ and $k$:
 
 $$C_{ik} = \frac{1}{B-1}\sum_{b=1}^B \left(z_i^b(t)-\bar{z}\_i(t)\right)\left(z_k^b(t)-\bar{z}\_k(t)\right).$$
 
